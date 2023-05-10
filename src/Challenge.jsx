@@ -71,17 +71,17 @@ function Challenge({ setting }) {
           <h1>Challenge {setting}</h1>
           <p>
             Clicking start will download a word file onto your computer and
-            start a timer{' '}
+            start a timer.
           </p>
           <p>
             You'll need to correctly copy the requested information from the
-            word file onto the correct text area
+            word file onto the correct text area.
           </p>
           <p>
             When you're done, click the stop button and the timer will stop and
-            your score will be displayed
+            your score will be displayed.
           </p>
-          <p></p>
+
           <a
             href={setting === 1 ? challengeOne : challengeTwo}
             download="challenge.docx"
